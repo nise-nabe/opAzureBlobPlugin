@@ -26,6 +26,13 @@ class opAzureContainer extends opAzure
     return $blobList->getBlobs();
   }
 
+  /**
+   * コンテナに格納されている Blob を返す
+   *
+   * @param string $blobName
+   *
+   * @return opAzureBlob
+   */
   public function get($blobName)
   {
     $blobRestProxy = ServicesBuilder::getInstance()->createBlobService($this->getConnectionString());
