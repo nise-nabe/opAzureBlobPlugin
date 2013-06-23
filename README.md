@@ -25,3 +25,5 @@ WindowsAzure ライブラリ
 ```
 $ pear install pear.windowsazure.com/WindowsAzure-0.3.1
 ```
+
+see more details [Windows Azure SDK for PHP](https://github.com/WindowsAzure/azure-sdk-for-php/)
